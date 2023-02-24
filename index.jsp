@@ -9,7 +9,7 @@
 <title>메인페이지</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-    body {font-family: "Times New Roman", Georgia, Serif;}
+    body {font-family: "맑은 고딕", Georgia, Serif;}
     h1, h2, h3, h4, h5, h6 {
       font-family: "Playfair Display";
       letter-spacing: 5px;
@@ -44,15 +44,17 @@
 
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="img/star.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
-    </div>
-
+    <div class="w3-col l6 w3-padding-large">
+     <img src="img/star.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" style="width:100%">
+      </div>
+      
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Catering</h1><br>
+      <h1 class="w3-center">About Star</h1><br>
       <h5 class="w3-center">Tradition since 1889</h5>
-      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-large" style="font-family:맑은 고딕;">별이 영어로 star라고 일반적으로 알려져 있지만, 사실 영단어 star는 항성만을 뜻한다. 한자문화권에서 별을 항성과 행성으로 나눴던 것처럼, 고대 그리스에서도 별을 고정된 별과 떠도는 별로 구분했는데, 
+          이게 전해져 오다가 행성은 떠돌이라는 뜻의 <span class="w3-tag w3-light-grey">planet</span>이라는 이름이 붙고, 항성은 그냥 star라고 부르게 되었다.[1] 그래서 천문학에서 star는 오직 항성만을 뜻하며, 행성은 star가 아니라 planet이다. 
+          </p>
+      <p class="w3-large w3-text-grey w3-hide-medium" style="font-family:맑은 고딕;">문제는 민간에서 여전히 sun, moon, star 분류법을 관습적으로 사용한다는 점이다. 때문에 star는 별일수도 항성일 수도 있다. 가령 일론 머스크의 starlink와 starship이 대표적인 예이다. 이는 문맥에 따라 파악하는 수밖에 없다.</p>
     </div>
   </div>
   
@@ -61,28 +63,44 @@
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+      <h1 class="w3-center">여름 여행지</h1><br>
+      <h4>경주 송대말등대</h4>
+      <p class="w3-text-grey">경주는 한곳에 모여있는 유적지와 산책 코스로 관광하기도 좋고, 바다도 가까워 여름 여행지로 추천한다. 특히나 경주 송대말등대는 경주 스노쿨링 장소로도 유명해 바다 수영에도 제격이다.</p><br>
     
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <h4>강릉 향호해변</h4>
+      <p class="w3-text-grey">커피거리가 가까운 경포해변과 포토스팟이 많은 안목해변도 좋지만, 북적이는 바다는 간혹 진을 빼놓곤 한다. 나와 같은 이들을 위해 한적한 매력의 강릉 향호해변을 소개한다.</p><br>
     
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+      <h4>부산 광안리해변</h4>
+      <p class="w3-text-grey">부산하면 대표적으로 떠오르는 광안리 해변, 여유로운 광합성을 즐길 수 있고, 요트투어와 같은 액티비티를 할 수 있어 모두에게 사랑받는 곳이다. 반짝이고 화려한 느낌의 해운대와는 달리, 다소 한적한 광안리는 힐링을 즐기기에 적합하다.</p><br>
     
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+      <h4>여수 모사금해수욕장</h4>
+      <p class="w3-text-grey">여름이 되면 흥얼거리는 노래인 여수 밤바다 덕분인지, 바다 하면 여수가 자연스레 떠오른다. 그중 여수 드라이브코스로도 유명한 여수 모사금해수욕장을 소개한다.</p><br>
     
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+      <h4>제주 김녕해수욕장</h4>
+      <p class="w3-text-grey">바다 수영에 진심이라면 빼놓을 수 없는 제주도. 그중에서도 에디터는 김녕 해수욕장을 추천한다. 김녕 해수욕장 방파제로 인해 피서지 무드를 자아내 이국적인 느낌도 든다.</p>    
     </div>
     
     <div class="w3-col l6 w3-padding-large">
       <img src="img/summer.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
     </div>
   </div>
-
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <img src="img/img-17.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="img/img-16.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+      
+    <div class="w3-col l6 w3-padding-large">
+      <img src="img/img-22.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+      <img src="img/img-25.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
   <hr>
 
   <!-- Contact Section -->

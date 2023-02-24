@@ -14,7 +14,7 @@
 	HkDto dto=(HkDto)request.getAttribute("dto");
 %>
 <body>
-<h1>게시글 수정하자</h1>
+<h1>게시글 수정하기</h1>
 <form action="HkController.do" method="post">
 	<input type="hidden" name="command" value="updateboard"/>
 	<input type="hidden" name="seq" value="<%=dto.getSeq()%>"/>
